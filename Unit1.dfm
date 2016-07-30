@@ -5,7 +5,7 @@ object Form1: TForm1
   BorderStyle = bsToolWindow
   Caption = 'Form1'
   ClientHeight = 563
-  ClientWidth = 385
+  ClientWidth = 375
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -1699,7 +1699,7 @@ object Form1: TForm1
   object Button1: TButton
     Left = -8
     Top = 376
-    Width = 393
+    Width = 385
     Height = 65
     Caption = 'Button1'
     TabOrder = 0
