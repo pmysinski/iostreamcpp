@@ -1,18 +1,20 @@
 object Form1: TForm1
-  Left = 226
-  Top = 191
+  Left = 337
+  Top = 155
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
   Caption = 'Form1'
-  ClientHeight = 563
-  ClientWidth = 375
-  Color = clBtnFace
+  ClientHeight = 640
+  ClientWidth = 377
+  Color = clBtnHighlight
+  DockSite = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
@@ -1696,13 +1698,44 @@ object Form1: TForm1
       A2801FB851B85328A007EE146E14CA2801FB851B85328A007EE146E14CA2801C
       E734DA28A00FFFD9}
   end
+  object Label1: TLabel
+    Left = 0
+    Top = 384
+    Width = 377
+    Height = 49
+    BiDiMode = bdRightToLeft
+    Caption = 'Obs'#322'uga '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentBiDiMode = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 0
+    Top = 432
+    Width = 377
+    Height = 13
+    Alignment = taRightJustify
+    Caption = 'autor: Dawid G'#243'rszczyk'
+  end
   object Button1: TButton
-    Left = -8
-    Top = 376
-    Width = 385
+    Left = 8
+    Top = 464
+    Width = 361
     Height = 65
-    Caption = 'Button1'
+    Caption = 'Zapis/Odczyt pliku oraz jego korekta (ios_bin_korekta.exe)'
     TabOrder = 0
     OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 8
+    Top = 536
+    Width = 361
+    Height = 57
+    Caption = 'Button2'
+    TabOrder = 1
   end
 end
