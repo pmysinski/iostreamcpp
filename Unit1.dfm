@@ -1701,8 +1701,8 @@ object Form1: TForm1
   object Label1: TLabel
     Left = 0
     Top = 384
-    Width = 377
-    Height = 49
+    Width = 66
+    Height = 20
     BiDiMode = bdRightToLeft
     Caption = 'Obs'#322'uga '
     Font.Charset = DEFAULT_CHARSET
@@ -1714,9 +1714,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 0
+    Left = 265
     Top = 432
-    Width = 377
+    Width = 112
     Height = 13
     Alignment = taRightJustify
     Caption = 'autor: Dawid G'#243'rszczyk'
@@ -1735,7 +1735,8 @@ object Form1: TForm1
     Top = 536
     Width = 361
     Height = 57
-    Caption = 'Button2'
+    Caption = 'Flagi formatowania  (ios_mojeflagi.exe)'
     TabOrder = 1
+    OnClick = Button2Click
   end
 end
