@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 286
-  Top = 139
+  Left = 288
+  Top = 92
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
   Caption = 'Form1'
-  ClientHeight = 640
-  ClientWidth = 377
+  ClientHeight = 778
+  ClientWidth = 503
   Color = clBtnHighlight
   DockSite = True
   Font.Charset = DEFAULT_CHARSET
@@ -14,12 +14,14 @@ object Form1: TForm1
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
-  OnCreate = FormCreate
+  DesignSize = (
+    503
+    778)
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
-    Left = 0
-    Top = 0
+    Left = 64
+    Top = 40
     Width = 377
     Height = 377
     Picture.Data = {
@@ -1699,12 +1701,15 @@ object Form1: TForm1
       E734DA28A00FFFD9}
   end
   object Label1: TLabel
-    Left = 0
-    Top = 384
-    Width = 66
-    Height = 20
-    BiDiMode = bdRightToLeft
-    Caption = 'Obs'#322'uga '
+    Left = 64
+    Top = 424
+    Width = 385
+    Height = 81
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    BiDiMode = bdLeftToRight
+    Caption = 
+      'Obs'#322'uga wej'#347'cia wyj'#347'cia z wykorzystaniem szablon'#243'w klas strumien' +
+      'iowych'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -1712,18 +1717,19 @@ object Form1: TForm1
     Font.Style = []
     ParentBiDiMode = False
     ParentFont = False
+    WordWrap = True
   end
   object Label2: TLabel
-    Left = 265
-    Top = 432
+    Left = 385
+    Top = 528
     Width = 112
     Height = 13
     Alignment = taRightJustify
     Caption = 'autor: Dawid G'#243'rszczyk'
   end
   object Button1: TButton
-    Left = 8
-    Top = 464
+    Left = 72
+    Top = 552
     Width = 361
     Height = 65
     Caption = 'Zapis/Odczyt pliku oraz jego korekta (ios_bin_korekta.exe)'
@@ -1731,10 +1737,10 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 8
-    Top = 536
+    Left = 72
+    Top = 624
     Width = 361
-    Height = 57
+    Height = 65
     Caption = 'Flagi formatowania  (ios_mojeflagi.exe)'
     TabOrder = 1
     OnClick = Button2Click
