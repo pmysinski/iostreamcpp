@@ -4,6 +4,8 @@
 #pragma hdrstop
 
 #include "Unit1.h"
+#include "Unit2.h"
+#include "Unit3.h"
 #include<iostream>
 #include<fstream.h>
 //---------------------------------------------------------------------------
@@ -19,7 +21,7 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-    ShellExecute(0, "open", "ios_bin_korekta.exe", "", "korekta", SW_SHOWNORMAL);
+    Form2->ShowModal();
 }
 //---------------------------------------------------------------------------
 
@@ -31,7 +33,7 @@ Label1->Caption = "Obs³uga wejœcia wyjœcia z wykorzystaniem\nszablonów klas stru
 
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
-     ShellExecute(0, "open", "ios_mojeflagi.exe", "", "flagi", SW_SHOWNORMAL);
+     Form3->ShowModal();
 }
 //---------------------------------------------------------------------------
 
