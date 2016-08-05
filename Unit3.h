@@ -13,7 +13,9 @@ class TForm3 : public TForm
 __published:	// IDE-managed Components
         TLabel *Label1;
         TButton *Button2;
+        TButton *Zamknij;
         void __fastcall Button2Click(TObject *Sender);
+        void __fastcall ZamknijClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm3(TComponent* Owner);

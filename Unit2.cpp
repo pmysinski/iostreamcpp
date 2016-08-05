@@ -20,4 +20,9 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
         ShellExecute(0, "open", "ios_bin_korekta.exe", "", "korekta", SW_SHOWNORMAL);        
 }
 //---------------------------------------------------------------------------
- 
+
+void __fastcall TForm2::Button2Click(TObject *Sender)
+{
+  Form2->Close();        
+}
+//---------------------------------------------------------------------------

@@ -6,6 +6,7 @@
 #include "Unit1.h"
 #include "Unit2.h"
 #include "Unit3.h"
+#include "Unit4.h"
 #include<iostream>
 #include<fstream.h>
 //---------------------------------------------------------------------------
@@ -32,4 +33,16 @@ void __fastcall TForm1::Button2Click(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
+
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+        Application->Terminate();        
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+        Form4->ShowModal();
+}
+//---------------------------------------------------------------------------
 

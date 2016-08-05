@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 288
-  Top = 92
+  Left = 181
+  Top = 44
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
-  Caption = 'Form1'
-  ClientHeight = 778
+  Caption = 'Menu g'#322#243'wne'
+  ClientHeight = 835
   ClientWidth = 503
   Color = clBtnHighlight
   DockSite = True
@@ -16,12 +16,12 @@ object Form1: TForm1
   OldCreateOrder = False
   DesignSize = (
     503
-    778)
+    835)
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
     Left = 64
-    Top = 40
+    Top = 16
     Width = 377
     Height = 377
     Picture.Data = {
@@ -1701,18 +1701,20 @@ object Form1: TForm1
       E734DA28A00FFFD9}
   end
   object Label1: TLabel
-    Left = 64
-    Top = 424
-    Width = 385
-    Height = 81
-    Anchors = [akLeft, akTop, akRight, akBottom]
-    BiDiMode = bdLeftToRight
+    Left = -8
+    Top = 405
+    Width = 505
+    Height = 87
+    Alignment = taCenter
+    Anchors = []
+    AutoSize = False
+    BiDiMode = bdRightToLeftNoAlign
     Caption = 
       'Obs'#322'uga wej'#347'cia wyj'#347'cia z wykorzystaniem szablon'#243'w klas strumien' +
       'iowych'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -16
+    Font.Height = -23
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentBiDiMode = False
@@ -1721,7 +1723,7 @@ object Form1: TForm1
   end
   object Label2: TLabel
     Left = 385
-    Top = 528
+    Top = 512
     Width = 112
     Height = 13
     Alignment = taRightJustify
@@ -1729,20 +1731,56 @@ object Form1: TForm1
   end
   object Button1: TButton
     Left = 72
-    Top = 552
+    Top = 536
     Width = 361
     Height = 65
-    Caption = 'Zapis/Odczyt pliku oraz jego korekta (ios_bin_korekta.exe)'
+    Caption = 'Zapis/Odczyt pliku oraz jego korekta '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
     OnClick = Button1Click
   end
   object Button2: TButton
     Left = 72
-    Top = 624
+    Top = 608
     Width = 361
     Height = 65
-    Caption = 'Flagi formatowania  (ios_mojeflagi.exe)'
+    Caption = 'Flagi formatowania'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
     OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 72
+    Top = 680
+    Width = 361
+    Height = 65
+    Caption = 'Button3'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 136
+    Top = 752
+    Width = 233
+    Height = 57
+    Caption = 'Zamknij program'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button4Click
   end
 end
