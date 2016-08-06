@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 181
-  Top = 44
+  Left = 219
+  Top = 96
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
   Caption = 'Menu g'#322#243'wne'
@@ -1764,7 +1764,13 @@ object Form1: TForm1
     Top = 680
     Width = 361
     Height = 65
-    Caption = 'Button3'
+    Caption = 'Sygnalizowanie b'#322#281'd'#243'w strumienia'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 2
     OnClick = Button3Click
   end

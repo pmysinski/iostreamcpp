@@ -20,4 +20,9 @@ void __fastcall TForm4::Button2Click(TObject *Sender)
         Form4->Close();        
 }
 //---------------------------------------------------------------------------
- 
+
+void __fastcall TForm4::Button1Click(TObject *Sender)
+{
+        ShellExecute(0, "open", "ios_bledy.exe", "", "bledy", SW_SHOWNORMAL);         
+}
+//---------------------------------------------------------------------------
