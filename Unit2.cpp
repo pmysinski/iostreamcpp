@@ -26,3 +26,4 @@ void __fastcall TForm2::Button2Click(TObject *Sender)
   Form2->Close();        
 }
 //---------------------------------------------------------------------------
+

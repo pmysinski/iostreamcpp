@@ -7,13 +7,16 @@
 #include <Controls.hpp>
 #include <StdCtrls.hpp>
 #include <Forms.hpp>
+#include <ExtCtrls.hpp>
+#include <jpeg.hpp>
 //---------------------------------------------------------------------------
 class TForm3 : public TForm
 {
 __published:	// IDE-managed Components
-        TLabel *Label1;
         TButton *Button2;
         TButton *Zamknij;
+        TImage *Image1;
+        TLabel *Label2;
         void __fastcall Button2Click(TObject *Sender);
         void __fastcall ZamknijClick(TObject *Sender);
 private:	// User declarations

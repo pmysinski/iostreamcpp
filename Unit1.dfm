@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 219
-  Top = 96
+  Left = 210
+  Top = 116
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
   Caption = 'Menu g'#322#243'wne'
-  ClientHeight = 835
+  ClientHeight = 785
   ClientWidth = 503
   Color = clBtnHighlight
   DockSite = True
@@ -16,7 +16,7 @@ object Form1: TForm1
   OldCreateOrder = False
   DesignSize = (
     503
-    835)
+    785)
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
@@ -1701,8 +1701,8 @@ object Form1: TForm1
       E734DA28A00FFFD9}
   end
   object Label1: TLabel
-    Left = -8
-    Top = 405
+    Left = 0
+    Top = 402
     Width = 505
     Height = 87
     Alignment = taCenter
@@ -1722,16 +1722,22 @@ object Form1: TForm1
     WordWrap = True
   end
   object Label2: TLabel
-    Left = 385
-    Top = 512
-    Width = 112
-    Height = 13
+    Left = 358
+    Top = 472
+    Width = 139
+    Height = 16
     Alignment = taRightJustify
     Caption = 'autor: Dawid G'#243'rszczyk'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
   end
   object Button1: TButton
     Left = 72
-    Top = 536
+    Top = 496
     Width = 361
     Height = 65
     Caption = 'Zapis/Odczyt pliku oraz jego korekta '
@@ -1741,12 +1747,12 @@ object Form1: TForm1
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 0
+    TabOrder = 3
     OnClick = Button1Click
   end
   object Button2: TButton
     Left = 72
-    Top = 608
+    Top = 568
     Width = 361
     Height = 65
     Caption = 'Flagi formatowania'
@@ -1756,12 +1762,12 @@ object Form1: TForm1
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 1
+    TabOrder = 0
     OnClick = Button2Click
   end
   object Button3: TButton
     Left = 72
-    Top = 680
+    Top = 640
     Width = 361
     Height = 65
     Caption = 'Sygnalizowanie b'#322#281'd'#243'w strumienia'
@@ -1771,12 +1777,12 @@ object Form1: TForm1
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 2
+    TabOrder = 1
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 136
-    Top = 752
+    Left = 144
+    Top = 712
     Width = 233
     Height = 57
     Caption = 'Zamknij program'
@@ -1786,7 +1792,7 @@ object Form1: TForm1
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 3
+    TabOrder = 2
     OnClick = Button4Click
   end
 end
